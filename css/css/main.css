@@ -1,0 +1,444 @@
+.navcolor {
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+  .navcolor {
+    height: 400px;
+  }
+  .introduction {
+    margin-top: 120px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .navcolor {
+    height: 170px;
+  }
+  .introduction {
+    margin-top: 150px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .gollogo {
+    position: relative;
+    top: 50px;
+    left: 100px;
+  }
+  .introduction {
+    margin-top: 100px;
+  }
+  .textmenu {
+    border-right: 2px solid rgb(90, 87, 87);
+  }
+}
+.gol {
+  padding-left: 410px;
+}
+
+@media all and (min-width: 1025px) {
+  .navcolor {
+    height: 150px;
+  }
+  .nav1 {
+    border-right: #eee9e9;
+  }
+}
+.navbar-toggler {
+  position: fixed;
+  top: 70px;
+  right: 10px;
+}
+
+.navbar-nav {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.menu {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+}
+
+.menu:hover .submenu {
+  display: block;
+}
+
+.textmenu {
+  color: rgb(134, 129, 129);
+  font-family: sans-serif;
+}
+
+.textBlack {
+  font-size: 20px;
+  color: rgb(83, 76, 76);
+}
+
+p {
+  text-align: justify;
+}
+
+.textmenu:hover {
+  color: rgb(241, 234, 234);
+}
+
+@media all and (min-width: 0px) {
+  .animpic {
+    animation-name: animpic;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+  }
+  @keyframes animpic {
+    from {
+      transform: translateY(-400px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .textRed {
+    animation-name: textRed;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+  }
+  @keyframes textRed {
+    from {
+      transform: translateX(400px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }
+  .fluent {
+    animation-name: fluent;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+  }
+  @keyframes fluent {
+    from {
+      transform: translateX(400px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }
+}
+.textRed {
+  color: red;
+}
+
+.fluent {
+  color: rgb(90, 88, 88);
+}
+
+.introduction {
+  color: red;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.introdoction1 {
+  text-align: justify;
+  font-size: 18px;
+  color: rgb(134, 129, 129);
+}
+
+.golestantea {
+  color: red;
+  font-size: 19px;
+}
+
+.img1 {
+  width: 213px;
+  height: 260px;
+}
+
+.box1 {
+  width: 465px;
+}
+
+.img2 {
+  width: 69px;
+  height: 62px;
+}
+
+.img10 {
+  padding-top: 5px;
+}
+
+.earl {
+  color: red;
+  font-family: sans-serif;
+}
+
+.text1 {
+  font-size: 19px;
+}
+
+.media1 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media1:hover {
+  color: rgb(55, 68, 122);
+}
+
+.media2 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media2:hover {
+  color: rgb(24, 97, 116);
+}
+
+.media3 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media3:hover {
+  color: rgb(121, 14, 6);
+}
+
+.media4 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media4:hover {
+  color: rgb(13, 147, 236);
+}
+
+.media5 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media5:hover {
+  color: rgb(233, 7, 63);
+}
+
+.media6 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media6:hover {
+  color: rgb(24, 197, 24);
+}
+
+.box {
+  width: 100%;
+  height: 10px;
+  background-color: red;
+}
+
+.box2 {
+  width: 130px;
+  height: 25px;
+  color: rgb(241, 234, 234);
+  font-family: sans-serif;
+}
+
+.footerA {
+  color: rgb(134, 129, 129);
+  font-family: sans-serif;
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+  .box2 {
+    width: 100%;
+  }
+}
+.boxmedia {
+  width: 100%;
+  height: 100px;
+  background-color: #eee9e9;
+}
+
+.boxfooter {
+  width: 100%;
+  height: 500px;
+}
+
+.fix-box {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 5px;
+  top: 300px;
+  right: 1px;
+  color: white;
+}
+
+.submenuBox {
+  width: 120px;
+  height: 40px;
+}
+
+.textRed {
+  color: red;
+}
+
+.fluent {
+  color: rgb(90, 88, 88);
+}
+
+.introduction {
+  color: red;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.introdoction1 {
+  text-align: justify;
+  font-size: 18px;
+  color: rgb(134, 129, 129);
+}
+
+.golestantea {
+  color: red;
+  font-size: 19px;
+}
+
+.img1 {
+  width: 213px;
+  height: 260px;
+}
+
+.img3 {
+  width: 230px;
+  height: 200px;
+}
+
+.img4 {
+  width: 230px;
+  height: 170px;
+}
+
+.box1 {
+  width: 465px;
+}
+
+.img2 {
+  width: 69px;
+  height: 62px;
+}
+
+.earl {
+  color: red;
+  font-family: sans-serif;
+}
+
+.text1 {
+  font-size: 19px;
+}
+
+.media1 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media1:hover {
+  color: rgb(55, 68, 122);
+}
+
+.media2 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media2:hover {
+  color: rgb(24, 97, 116);
+}
+
+.media3 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media3:hover {
+  color: rgb(121, 14, 6);
+}
+
+.media4 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media4:hover {
+  color: rgb(13, 147, 236);
+}
+
+.media5 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media5:hover {
+  color: rgb(233, 7, 63);
+}
+
+.media6 {
+  color: #807f7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.media6:hover {
+  color: rgb(24, 197, 24);
+}
+
+.box {
+  width: 100%;
+  height: 10px;
+  background-color: red;
+}
+
+.box2 {
+  width: 130px;
+  height: 25px;
+  color: rgb(241, 234, 234);
+  font-family: sans-serif;
+}
+
+.footerA {
+  color: rgb(134, 129, 129);
+  font-family: sans-serif;
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+  .box2 {
+    width: 100%;
+  }
+}
+.boxmedia {
+  width: 100%;
+  height: 100px;
+  background-color: #eee9e9;
+}
+
+.boxfooter {
+  width: 100%;
+  height: 500px;
+}
+
+.fix-box {
+  display: flex;
+  position: fixed;
+  bottom: 5px;
+  top: 430px;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
